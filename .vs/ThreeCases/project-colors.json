@@ -10,7 +10,12 @@
       "ProjectGuid": "2953b0b8-d87e-4d46-a768-2cf96005975c",
       "DisplayName": "ThreeCases",
       "ColorIndex": 1
+    },
+    "44bb6a53-7b30-4564-9dac-47d1ca3a1126": {
+      "ProjectGuid": "44bb6a53-7b30-4564-9dac-47d1ca3a1126",
+      "DisplayName": "Unittest",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
