@@ -1,0 +1,12 @@
+D:\project\ThreeCases\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\project\ThreeCases\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\project\ThreeCases\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+D:\project\ThreeCases\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\project\ThreeCases\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\project\ThreeCases\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\sanpou\Desktop\ThreeCases\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\sanpou\Desktop\ThreeCases\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\sanpou\Desktop\ThreeCases\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\sanpou\Desktop\ThreeCases\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sanpou\Desktop\ThreeCases\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\sanpou\Desktop\ThreeCases\ClassLibrary\obj\Debug\ClassLibrary.pdb
