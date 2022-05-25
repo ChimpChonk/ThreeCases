@@ -18,10 +18,6 @@ namespace ClassLibrary
             Score = score;
         }
 
-        public DanceLogic()
-        {
-        }
-
         public static DanceLogic operator +(DanceLogic dancer1, DanceLogic dancer2)
         {
             var fællesNavn = dancer1.Name + " & " + dancer2.Name;

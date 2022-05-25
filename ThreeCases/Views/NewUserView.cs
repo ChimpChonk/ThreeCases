@@ -30,7 +30,7 @@ namespace ThreeCases
                 Console.Write("New Password: ");
                 password = Console.ReadLine();
 
-                var isNewPassVerified = ClassLibrary.PasswordCheckLogic.PasswordChecked(password);
+                var isNewPassVerified = _passwordCheckLogic.PasswordChecked(password);
 
                 if (isNewPassVerified)
                 {

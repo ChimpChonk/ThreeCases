@@ -9,11 +9,9 @@ namespace ThreeCases.Views
 {
     internal class DanceView
     {
-        public ClassLibrary.DanceLogic _dance;
         public DanceView()
         {
 
-            _dance = new DanceLogic();
 
             int score = 0;
             string name;

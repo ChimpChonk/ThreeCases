@@ -19,12 +19,12 @@ namespace ClassLibrary
                 return "OOPS looks like you are playing backwards";
             else if (passes < 1)
                 return "Shhh";
-            else if (passes > 10)
-                return "High Five!!!";
+            else if (passes >= 10)
+                return "High Five - Jubel!!!";
             else
             {
                 var str = string.Empty;
-                for (int i = 0; i < passes; i++) str += "Huh!";
+                for (int i = 0; i < passes; i++) str += "Huh! ";
 
                 return str.TrimEnd();
             }

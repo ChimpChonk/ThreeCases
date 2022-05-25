@@ -21,7 +21,7 @@ namespace ClassLibrary
         }
 
 
-        public static bool PasswordChecked(string password)
+        public bool PasswordChecked(string password)
         {
             bool hasNum = false, hasCaps = false, hasLow = false, hasSymbol = false, hasSpace = true;
             char currentCharacter;

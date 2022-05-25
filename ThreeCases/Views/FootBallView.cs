@@ -16,6 +16,10 @@ namespace ThreeCases.Views
 
         internal void RunFootBall()
         {
+            Console.WriteLine("Is there a goal:");
+
+            var goal = Console.ReadLine();
+
             Console.WriteLine("How many passes: ");
             bool success = Int32.TryParse(Console.ReadLine(), out int passes);
 
@@ -25,9 +29,6 @@ namespace ThreeCases.Views
                 return;
             }
 
-            Console.WriteLine("Is there a goal:");
-
-            var goal = Console.ReadLine();
 
             var football = new FootBallLogic();
 
