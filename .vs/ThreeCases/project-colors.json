@@ -1,46 +1,26 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "8f601a46-683e-4b3e-9035-f3ca21d2e793": {
-      "ProjectGuid": "8f601a46-683e-4b3e-9035-f3ca21d2e793",
-      "DisplayName": "ClassLibrary",
-      "ColorIndex": 0
-    },
-    "2953b0b8-d87e-4d46-a768-2cf96005975c": {
-      "ProjectGuid": "2953b0b8-d87e-4d46-a768-2cf96005975c",
-      "DisplayName": "ThreeCases",
-      "ColorIndex": 1
-    },
-    "44bb6a53-7b30-4564-9dac-47d1ca3a1126": {
-      "ProjectGuid": "44bb6a53-7b30-4564-9dac-47d1ca3a1126",
-      "DisplayName": "UnitTest",
-      "ColorIndex": 2
-    },
-    "ab7522ba-8df5-4b13-ab3b-70771d3c7fba": {
-      "ProjectGuid": "ab7522ba-8df5-4b13-ab3b-70771d3c7fba",
-      "DisplayName": "FootBallTest",
-      "ColorIndex": 3
-    },
-    "f5c5038a-a9f5-4f5e-8dad-2115e6bc7d61": {
-      "ProjectGuid": "f5c5038a-a9f5-4f5e-8dad-2115e6bc7d61",
-      "DisplayName": "Test",
-      "ColorIndex": 4
-    },
-    "c382b0f4-ed2f-43da-a45c-6eb370ef2141": {
-      "ProjectGuid": "c382b0f4-ed2f-43da-a45c-6eb370ef2141",
-      "DisplayName": "UnitTestProject1",
-      "ColorIndex": 5
-    },
-    "4e33fd5a-65fc-47a3-aa42-4994ac972f3e": {
-      "ProjectGuid": "4e33fd5a-65fc-47a3-aa42-4994ac972f3e",
-      "DisplayName": "ClassTest",
-      "ColorIndex": 6
-    },
     "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "2953b0b8-d87e-4d46-a768-2cf96005975c": {
+      "ProjectGuid": "2953b0b8-d87e-4d46-a768-2cf96005975c",
+      "DisplayName": "ThreeCases",
+      "ColorIndex": 0
+    },
+    "8f601a46-683e-4b3e-9035-f3ca21d2e793": {
+      "ProjectGuid": "8f601a46-683e-4b3e-9035-f3ca21d2e793",
+      "DisplayName": "ClassLibrary",
+      "ColorIndex": 1
+    },
+    "8dc3050f-1def-408c-b5ce-5a41a04d28b9": {
+      "ProjectGuid": "8dc3050f-1def-408c-b5ce-5a41a04d28b9",
+      "DisplayName": "ClassTest",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 3
 }
