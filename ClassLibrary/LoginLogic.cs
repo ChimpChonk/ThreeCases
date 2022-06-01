@@ -8,6 +8,8 @@ namespace ClassLibrary
 {
     public class LoginLogic
     {
+
+        //get values
         public string Username { get;}
         public string Password { get;}
         public bool Verified { get;}
@@ -24,11 +26,14 @@ namespace ClassLibrary
         }
 
         
-
-        public static bool VerifyLogin(string username, string password)
+        //Læse file method return bool
+        public bool VerifyLogin(string username, string password)
         {
+
+            //læse file
             string[] lines = System.IO.File.ReadAllLines(@"C:\Users\sanpou\Desktop\ThreeCases\ClassLibrary\logins.txt");
 
+            //læse alle text i filen og check for split
             for (int i = 0; i < lines.Length; i++)
             {
                 string[] field = lines[i].Split(' ');

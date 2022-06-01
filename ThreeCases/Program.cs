@@ -10,6 +10,8 @@ namespace ThreeCases
     {
         static void Main(string[] args)
         {
+
+            // Refrence til Log in menu VIew
             var obj1 = new LoginMenuView();
         }
     }

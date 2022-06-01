@@ -9,6 +9,7 @@ namespace ClassLibrary
 {
     public class PasswordCheckLogic
     {
+        //get password
         public string Password { get;}
 
         public PasswordCheckLogic(string password)
@@ -20,18 +21,19 @@ namespace ClassLibrary
         {
         }
 
-
+        //Password check method return bool
         public bool PasswordChecked(string password)
         {
             bool hasNum = false, hasCaps = false, hasLow = false, hasSymbol = false, hasSpace = true;
             char currentCharacter;
 
+            //check for password længde
             if (password.Length < 12)
             {
                 return false;
             }
 
-
+            //læse password check om kravene er opfyldt
             for (int i = 0; i < password.Length; i++)
             {
                 currentCharacter = password[i];

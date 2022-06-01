@@ -13,6 +13,7 @@ namespace ClassLibrary
         {
         }
 
+        //check hvormang passes er der og return string
         public string ThePasses(int passes)
         {
             if (passes < 0)
@@ -30,6 +31,7 @@ namespace ClassLibrary
             }
         }
 
+        //check er det mål 
         public string CheerGoalOrPass(string goal, int passes)
         {
             if (goal.ToLower() == _goal)
@@ -43,6 +45,7 @@ namespace ClassLibrary
 
         }
 
+        //string for mål 
         public string CheerGoal(string goal)
         {
             return "Olé olé olé";

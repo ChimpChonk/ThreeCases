@@ -9,11 +9,13 @@ namespace ThreeCases.Views
 {
     internal class FootBallView
     {
+        //køre RunFootBall method
         public FootBallView()
         {
             RunFootBall();
         }
 
+        //Run football method
         internal void RunFootBall()
         {
             Console.WriteLine("Is there a goal:");
@@ -21,20 +23,21 @@ namespace ThreeCases.Views
             var goal = Console.ReadLine();
 
             Console.WriteLine("How many passes: ");
+
+            //give error hvis input er negitive tale eller decimale tal
             bool success = Int32.TryParse(Console.ReadLine(), out int passes);
 
             if (!success)
             {
+                //error
                 Console.WriteLine("Ouch something went wrong F");
                 return;
             }
 
-
+            //Refrence til football logic 
             var football = new FootBallLogic();
 
-            FootBallLogic football2 = football;
-
-            var result = football2.CheerGoalOrPass(goal, passes);
+            var result = football.CheerGoalOrPass(goal, passes);
 
             Console.WriteLine(result);
             Console.ReadKey();

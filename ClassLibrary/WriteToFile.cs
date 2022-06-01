@@ -10,6 +10,7 @@ namespace ClassLibrary
     public class WriteToFile
     {
 
+        //get value til at skrive til file
         public string Username { get;}
         public string Password { get;}
 
@@ -23,7 +24,8 @@ namespace ClassLibrary
         {
         }
 
-        public static string ChangeLogIn(string username, string password)
+        //Skriv til file
+        public string ChangeLogIn(string username, string password)
         {
             string write = username + " " + password;
 

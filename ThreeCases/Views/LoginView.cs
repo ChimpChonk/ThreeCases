@@ -9,6 +9,8 @@ namespace ThreeCases
 {
     internal class LoginView
     {
+
+        //Refrence til login loigc 
         public ClassLibrary.LoginLogic _loginLogic;
 
         public LoginView()
@@ -19,24 +21,27 @@ namespace ThreeCases
             bool verified = false;
             string username, password;
 
-            LoginLogic loginLogic1 = new LoginLogic();
-
+            //loop til user har tastet rigtig username og password
             do
             {
-
+                //User username
                 Console.Write("Username: ");
                 username = Console.ReadLine().ToLower();
 
+                //user password
                 Console.Write("Password: ");
                 password = Console.ReadLine();
 
-                var verifying = ClassLibrary.LoginLogic.VerifyLogin(username, password);
+                //refrence til login logic. Det checke hvis password og username er valid eller nej og return en bool
+                bool verifying = _loginLogic.VerifyLogin(username, password);
 
                 if (verifying)
                 {
                     Console.WriteLine("Login In success");
                     Console.ReadKey();
                     Console.Clear();
+
+                    //refrence til main menu
                     var obj4 = new MainMenuView();
                     verified = true;
 
@@ -44,7 +49,8 @@ namespace ThreeCases
 
                 else
                 {
-                    Console.WriteLine("Your username and password is not correct try again");
+                    //error message
+                    Console.WriteLine("Your username or password is not correct try again");
                     Console.ReadKey();
 
                 }

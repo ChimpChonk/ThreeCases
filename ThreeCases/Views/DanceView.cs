@@ -21,6 +21,7 @@ namespace ThreeCases.Views
 
             name = Console.ReadLine();
 
+            //check hvis score er int
             while (!isvalid)
             {
                 Console.Write("First contestant score:");
@@ -33,10 +34,12 @@ namespace ThreeCases.Views
 
                 else
                 {
+                    //error
                     Console.WriteLine("ERROR: try againg, give a number.");
                 }
             }
 
+            //refrence til dance logic
             DanceLogic dancer1 = new DanceLogic(name, score);
 
             isvalid = false;
@@ -45,6 +48,7 @@ namespace ThreeCases.Views
 
             name = Console.ReadLine();
 
+            //Check score er int 
             while (!isvalid)
             {
                 Console.Write("Second Contestant score:");
@@ -57,13 +61,15 @@ namespace ThreeCases.Views
 
                 else
                 {
+                    //error
                     Console.WriteLine("ERROR: try againg, give a number.");
                 }
             }
 
+            //refrence dance logic 
             DanceLogic dancer2 = new DanceLogic(name, score);
 
-
+            //append dancer 1 og 2 naven og score
             DanceLogic dancer3 = dancer1 + dancer2;
 
             Console.WriteLine(dancer3.Name + ": " + dancer3.Score);

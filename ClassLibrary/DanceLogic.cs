@@ -8,6 +8,7 @@ namespace ClassLibrary
 {
     public class DanceLogic
     {
+        //get navn og score
         public string Name { get; }
         public int Score { get; }
 
@@ -18,6 +19,7 @@ namespace ClassLibrary
             Score = score;
         }
 
+        //operation overload for name og score
         public static DanceLogic operator +(DanceLogic dancer1, DanceLogic dancer2)
         {
             var fællesNavn = dancer1.Name + " & " + dancer2.Name;
